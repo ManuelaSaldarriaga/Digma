@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: LTSaeada;
+    src: url(../fuentes/LTSaeada-Medium.otf);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../fuentes/Quicksand_Book.otf);
+}
+
+.logo{
+    width: 6rem;
+    cursor: pointer;
+}
+
+.comic{
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 0 0 9px 9px rgb(0, 0, 0, 0.3);
+}
+
+.Redes-sociels{
+    color: #002144;
+    font-size: 3rem;
+    font-family: LTSaeada;
+}
+
+.redes{
+    width: 15%;
+}
+
+.icon{
+    display: flex;
+    gap: px;
+    color: #DB9542;
+    width: 100%;
+    padding: 8px;
+}
+
+.redes svg:hover{
+    cursor: pointer;
+    filter: brightness(1.3);
+    transform:scale3d(1.2,1.2,1);
+}
+
+@media screen and (max-width: 800px){
+
+    .logo{
+        width: 90px;
+    }
+
+    .comic{
+        width: 100%;
+    }
+
+    .Redes-sociels{
+        font-size: 2rem;
+    }
+
+    .redes{
+        background-color: red;
+        width: 30%;
+    }
+
+    .icon{
+        width: 45px;
+    }
+    
+}

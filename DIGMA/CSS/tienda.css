@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: LTSaeada;
+    src: url(../fuentes/LTSaeada-Medium.otf);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../fuentes/Quicksand_Book.otf);
+}
+
+body{
+    background: url(../Multimedia/Fondo-tienda.png);
+}
+
+.logo{
+    width: 60%;
+    cursor: pointer;
+}
+
+.iconos{
+    font-size: 2.5rem;
+}
+
+.icon{
+    color: black;
+    display: flex;
+    gap: 2.6rem;
+}
+
+.iconn{
+    cursor: pointer;
+}
+
+.iconn:hover{
+    transform:scale3d(1.2,1.2,1.2);
+    color: #fff;
+}
+
+.titulo{
+    font-family: LTSaeada;
+    font-size: 3rem;
+    color: #002d60;
+}
